@@ -1,0 +1,13 @@
+name: '${project.artifactId}'
+version: '${project.version}'
+main: '${project.groupId}.${project.artifactId}'
+api-version: 1.19
+authors: [ KIZAFOX ]
+description: '${project.description}'
+website: '${project.url}'
+
+commands:
+  toolsplus:
+    description: ToolsPlus command description
+    aliases:
+      - toolsp

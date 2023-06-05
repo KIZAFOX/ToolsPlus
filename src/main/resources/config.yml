@@ -1,0 +1,22 @@
+##################################################################
+#                                                                #
+#       _____           _     ____  _                            #
+#       |_   _|__   ___ | |___|  _ \| |_   _ ___                 #
+#       | |/ _ \ / _ \| / __| |_) | | | | / __|                  #
+#       | | (_) | (_) | \__ \  __/| | |_| \__ \                  #
+#       |_|\___/ \___/|_|___/_|   |_|\__,_|___/  by KIZAFOX      #
+#                                                                #
+##################################################################
+
+enable: "&aYou successfully enabled tools information!"
+disable: "&cYou successfully disabled tools information!"
+error: "&cError ! Please type the /toolsplus toggle command again!"
+not-a-tool: "&cThis item is not a tool!"
+list-of-tools: "&cList of tools : "
+list: "&8- &b%tool%"
+scroll-up: "&cScroll up to see the list of tools!"
+reload-config: "&aYou successfully reloaded the config file!"
+no-permission: "&cYou don't have permission to use this command!"
+
+actionbar:
+  message: "&e%toolName% &8| &cDurability &8: &b%currentDurability%&8/&9%maxDurability%"
